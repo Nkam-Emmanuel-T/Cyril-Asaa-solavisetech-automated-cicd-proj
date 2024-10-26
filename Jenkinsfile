@@ -10,8 +10,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'Cloning project codebase...'
-                git branch: 'main', url: 'git@github.com:Nkam-Emmanuel-T/Cyril-Asaa-solavisetech-automated-cicd-proj.git'
-                sh 'ls'
+                git "https://github.com/Nkam-Emmanuel-T/Cyril-Asaa-solavisetech-automated-cicd-proj"
             }
         }
         
