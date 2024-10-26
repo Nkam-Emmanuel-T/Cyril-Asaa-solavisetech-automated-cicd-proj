@@ -23,7 +23,7 @@ Prerequisites
     - Create an **Amazon Linux 2 VM** instance and call it "Jenkins"
     - Instance type: t2.large
     - Security Group (Open): 8080 and 22 to 0.0.0.0/0
-    - Key pair: Select or create a new keypair
+    - Key pair: Select or create a new keypair called cicdpipeline
     - **Attach Jenkins server with IAM role having "AdministratorAccess"**
     - User data (Copy the following user data): https://github.com/cvamsikrishna11/devops-fully-automated/blob/installations/jenkins-maven-ansible-setup.sh
     - Launch Instance
